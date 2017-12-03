@@ -1,8 +1,4 @@
-﻿#sample7 .byMarc-ddcbl-scrollDiv {
-    height: 75px;
-}
-
-.byMarc-ddcbl-table {
+﻿.byMarc-ddcbl-table {
     border-collapse: collapse;
 }
 
@@ -29,7 +25,7 @@
 .byMarc-ddcbl-checkbox {
     display: block;
     padding: 0;
-    margin: 2px;  /* Controls the item spacing. */
+    margin: 2px; /* Controls the item spacing. */
 }
 
 .byMarc-ddcbl-item {
@@ -84,15 +80,16 @@
     padding: 0 5px 0 5px;
     text-align: left;
 }
+
 .byMarc-ddcbl-button {
     line-height: 0;
     min-width: 16px;
 }
 
 .byMarc-ddcbl-button-collapsed:before {
-    content: url('../../../Images/byMarc/DropDownCheckBoxList/collapsed.png');
+    content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAATCAIAAAAWBRqYAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwwAADsMBx2+oZAAAAHNJREFUOE/tksENgCAMRdEx2YnRYABGgAsb4AttTIQm6tX4LqXtf6ey9d7dG3atj/mQUGtNKcl7hRUBeavQWgshmA5DVgS05w5CKcV7H2PUfkDLkJX2HE3rYHLWNFwEOB0zDbMA4phpMATIOZtp+D/fPc4dPVH3m8UgyxoAAAAASUVORK5CYII=);
 }
 
 .byMarc-ddcbl-button-expanded:before {
-    content: url('../../../Images/byMarc/DropDownCheckBoxList/expanded.png');
+    content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAATCAIAAAD5x3GmAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwwAADsMBx2+oZAAAAIZJREFUOE/tkrENAyEMRckNQMEErMYaDMAaTEWLmICCCfIkn4ISk4IrT/cbbH8/yUj/VWs1mzrOd0f3ZXrvpZSzUcJiQerJjDFyzkuMIRYL0k7Gex9j1JgAWCzI5Os/zrkf7ANgyQQtcsDdKaUQArUG0Do7glFoAP3NW2vNWqsB9GT0CmPMG1P9UG5ABYpCAAAAAElFTkSuQmCC);
 }
